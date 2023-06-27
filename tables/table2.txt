@@ -1,0 +1,34 @@
+		(1)	(2)	(3)	(4)	(5)
+VARIABLES	LABELS	Main Effects	High wealth	Low wealth	Female	Male
+						
+T1	Eliminate evasion of the rich	7.549***	5.308***	10.17***	9.466***	4.635**
+		(1.254)	(1.589)	(1.965)	(1.701)	(1.863)
+T2	Eliminate evasion of the poor	4.527***	3.632**	6.301***	5.932***	2.598
+		(1.252)	(1.676)	(1.852)	(1.630)	(1.939)
+wealth_index_uw	Wealth (index)	-0.507	4.077***	-3.609***	-0.983	0.236
+		(0.647)	(1.497)	(1.250)	(0.873)	(0.933)
+female	Female	-1.718	-1.061	-2.465		
+		(1.164)	(1.510)	(1.775)		
+age	Age	-0.173***	-0.169***	-0.155**	-0.172***	-0.197***
+		(0.0446)	(0.0563)	(0.0679)	(0.0613)	(0.0649)
+pre_evasion_pobres	Perceived evasion rate (poor households)	0.0902***	0.0443**	0.143***	0.0978***	0.0789***
+		(0.0183)	(0.0211)	(0.0308)	(0.0233)	(0.0299)
+pre_evasion_ricos	Perceived evasion rate (rich households)	0.0654***	0.0541**	0.0705***	0.0587***	0.0754***
+		(0.0177)	(0.0258)	(0.0241)	(0.0221)	(0.0290)
+trust_index_uw	Trust in government and satisfaction with public services (index)	1.649***	2.509***	0.520	2.950***	-0.00911
+		(0.535)	(0.726)	(0.785)	(0.817)	(0.684)
+poverty_index_uw	Beliefs about poverty (index)	1.628***	0.733	2.559***	2.144***	0.788
+		(0.596)	(0.747)	(0.946)	(0.793)	(0.896)
+inequality_index_uw	Preoccupation about inequality (index)	-0.196	0.658	-0.996	-0.251	-0.247
+		(0.584)	(0.643)	(0.977)	(0.799)	(0.859)
+mobilidad	Social mobility	-0.482	-0.101	-0.816*	-0.414	-0.661
+		(0.363)	(0.527)	(0.491)	(0.480)	(0.535)
+employed	Employed	-1.895	-0.676	-3.233*	0.432	-6.865**
+		(1.360)	(1.784)	(1.906)	(1.539)	(2.765)
+Constant	Constant	21.28***	19.74***	15.71***	16.81***	28.24***
+		(2.931)	(4.130)	(4.277)	(3.201)	(4.923)
+						
+Observations		1,503	751	752	897	606
+R-squared		0.095	0.072	0.159	0.116	0.092
+Robust standard errors in parentheses						
+*** p<0.01, ** p<0.05, * p<0.1						
